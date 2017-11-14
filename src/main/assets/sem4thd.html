@@ -1,0 +1,193 @@
+<html>
+
+<head>
+    <style>
+        p{
+            font-size:20px;
+            color:black;
+            margin:12px 0 12px 5px;
+        }
+        h2{
+            color:black;
+            margin-botton:10px;
+            text-align:center;
+        }
+        h3{
+            color:green;
+            font-family:Arial;
+            font-style:italic;
+            margin:7px 0 12px 0;
+            text-align:center
+        }
+        h5{
+            margin-top:20px;
+            font-style:bold;
+            font-size:18px
+            color:black;
+            text-align:center;
+            letter-spacing:2px;
+        }
+    </style>
+</head>
+
+
+
+<body>
+<h2> DATABASE MANAGEMENT SYSTEM(CA 4101) </h2>
+<h2>2012-2013</h2>
+
+<h3>Answer Any five Questions</h3>
+
+<p> (i) Explain INF, 2NF, 3NF and BCNF with suitable example.</p>
+   <p> (i1) Consider the universal relation R ={A, B, C, D, E, F, G, H, 1}  and the set of functional dependencies F ={(A,B)->C, A-> (D,E), (B)-> F,(F)->(G,H),(D)->(I,J)}. What is the key for R ? Decompose R into 2 NF.</p>
+<p> 2.(i) Explain the concept of serializability.  8+6 </p>
+   <p> (ii) Explain the deferred database modification scheme for logbased recovery highlighting the following:</p>
+    <p>(a) How is the WRITE (A, a) statement of a transaction handled in this scheme?</p>
+   <p> (b) What are the types of log records written?</p>
+   <p> (c) Exactly when each type of log records written?</p>
+    <p>(d) What is the recovery scheme during failure What happens if failures occur during recovery? 6+8</p>
+  <p>  3. (i) Design an E-R diagram for Banking system s-account checking account, loan and loan-payment.
+    Clearly highlight the entities (including weak if any), their relationships, the primary keys and the mapping constraints.</p>
+   <p> (ii) the E-R of the above their relational database, clearly highlighting the attributes relational schemes, the relations, the referential integrity constraints and the functional dependencies which are supposed to hold your designed system. List all the candidate the relation based on your functional dependencies using concept of closure of an attribute. 7+7</p>
+     <p>  4. (i) Distinguish between superkey, candidate key and primary key of a relational scheme with examples.</p>
+   <p> (ii) Consider the following relational d where the primary keys are underlined.</p>
+   <p>employee (person-name, street, city  )</p>
+  <p>  works (person-name, company-name, salary)</p>
+  <p>  company (company-name, city)</p>
+   <p> manages (person-name, manager-name)</p>
+  <p>  Give an expression in the relational algebra to express each of the following queries:</p>
+   <p> (a) Find the names of all employees who work for First Bank Corporation</p>
+   <p> (b) Find the names and cities of residence of all employees who work for First Bank Corporation</p>
+    <p>(c) Find the names, street add and cities of residence of all employees who work for First Bank Corporation and earn more than $ 10,000 per annum.</p>
+   <p> (d) find the names of employees in this database who live in the city as the company for which they work? 6+ 8</p>
+   <p> 5 (i) Consider the following insurance database , Where the primary keys are dark:</p>
+   <p> person (driver-id, name, address)</p>
+   <p> car (licence, model, year accident report-number, date, location)</p>
+   <p> owns (driver-id, licence)</p>
+  <p>  participated (driver-id, car, report-number, damage amount)</p>
+   <p> Construct the following SQL queries for this relational database.</p>
+   <p> (a) Find the total number of people who owned cars that were involved in accidents in 2011</p>
+    <p>(b) Find the number of accidents in which the cars belonging to "Rajesh Patel" were involved.</p>
+   <p> (c) Delete the ALTO belonging to "Rajesh Patel".</p>
+    (d) Update the damage amount for the car with licence number "xxYY2001" in the accident with report number "AR2197" to $3000.
+  <p>  ii) List the functions of DBA. 10 +4</p>
+   <p> 6.  List the ACID properties. Explain the usefulness of each.</p>
+  <p>  (ii) During its execution, a transaction passes through of states, until it finally or aborts. List all sequence states through which a transaction may pass. Explain why each state transition may occur.</p>
+<p>(iii) Explain how granularity of locking affects the performance of concurrency control algorithm.
+    6+ 8 </p>
+   <P> 7. What are the different components of a distributed database system Explain in details different data placement strategies in distributed database systems. 6+8 </P>
+
+
+
+
+
+
+<h5>*****</h5>
+
+
+
+
+
+
+
+<h2> DATABASE MANAGEMENT SYSTEM(CA 4101) </h2>
+<h2>2013-2014</h2>
+
+<h3>Answer Any five Questions</h3>
+<p>  1. Explain the distinctions among the terms primary key, candidate key, and superkey.</p>
+<p>  (b) Construct an E-R diagram for a hospital with a set of patients and a set of medical doctors. Associate with each patient a log of the various tests and examinations conducted.</p>
+<p>(c) Define  the concept of aggregation. Give two examples of this concept is useful.   3+7+4 </p>
+
+<p> 2. Describe the differences between the terms relation and relational schema. </p>
+<p> b) List two reasons why we may choose to define a view. </p>
+
+<p>c) List two major problems with processing update operations expressed in terms of views.   </p>
+<p> d)List two reasons why null values might be introduced into the database. </p>
+
+<p> (e) The outer-join operations extend the natural join operation of the the tuples from the participating relations are not lost in the results that join. Describe how the theta join operations can be extended so of a tuples from the left, right, or both relations are not lost from the results theta join.   2+2+2+2+6  </p>
+
+<p>3. a) Suppose that we have a relation marks (student-id, score) we wish to assign grades to students based on the score as follows: grade F if score< 40, grade p if 40 <= score< 50, grade D if 50 <= grade<60,grade C if< =60  score<70, grade B if 70 <= score 80, grade A 80<= 90 ,ex if<=90 score. write SQL queries of the following.  </p>
+
+<P> (i) To display the grade of each student.</p>
+<P> (ii) Find the number of students in each grade. </p>
+
+<P> b) Suppose we have the relations depositor (customer-name, SQL unit-number and borrower (customer-name, loan-number). Write SQL for the following  </p>
+
+<p> (i)To find all customers having a loan, an account, or both at the bank</p>
+
+<p> (ii)To find all customers who have both a loan and an account at the bank.</p>
+<p>(iii) To find all customers who have an account but no loan at the bank.  4x2+2x3  </p>
+
+<p>4. (a) Why is BCNF a more desirable normal form than lower  normal forms Give an example of a relational schema that is in F but not in BCNF</p>
+<p>  (b) When is a relational schema in third normal form ?can there any update anomaly in 3 NF relation? If so, give an example. </p>
+<p>(c) Why is it necessary to normalize relational schemas ? trades with examples, the updating problems that may arise in relational  which are in second and third normal forms. Give an example relation in third normal form that has some prime attributes transitively ends upon a key </p>
+
+<p>5 a) List the ACID properties. Explain the usefulness of each.  </p>
+<p> (b justify the following statement Concurrent execution of action is more important when data must be fetched from (slow) disk  or when transactions are long and is less important when data is in memory and transactions are very short.</p>
+<p>c) Explain the distinction between the term serial s and serializable schedule.
+    6+ 4+ 4
+</p>
+
+<p>  6 (a)What is two phase protocol ?</p>
+<p>(b) How to phase protocol ensures conflict serializability? </p>
+ <p> (c) How deadlock occurs in two phase locking?</p>
+
+<p>(d) How cascading rollback is possible in two phase locking ?How it can be avoided using strict two phase locking ?  14 </p>
+<p>7. What are the different components of a distributed database systems lain in details different data placement strategies in distributed database systems.</p>
+
+
+
+
+<h5>*****</h5>
+
+
+
+    <h2> DATABASE MANAGEMENT SYSTEM(CA 4101) </h2>
+    <h2>2014-2015</h2>
+
+    <h3>Answer Any five Questions</h3>
+    <p>1.(a)1. List four significant differences between a file- processing system and a DBMS the difference between physical and logical data independence . </p>
+
+    <p>(b) What are five main functions of a database administrator? </p>
+
+    <p>(c) Define the concept of aggregation with example and explain the difference between a weak and a strong entity set.</p>
+
+    <p>(d)  Draw an E-R diagram for an institute management system.  </p>
+    <p>  e) Discuss the candidate key, primary key, super key, composite key and alternate key. </p>
+
+    <p> F)  Consider the relational schema R (A, B, C, D, E, F) and FDs A- BC, C- A, D- E, F A, E- D Find the all candidate key.    </p>
+    <p> (g) Discuss the terms functional dependency, lossy J decomposition and lossless decomposition.  </p>
+
+    <p> h) The relation schema student performance (name, courseNo, rollNo, grade) has the following FDs: </p>
+
+    <p> name, courseNo ->grade </p>
+
+<P> rollNo, courseNo ->grade</p>
+<P> name ->rollNo </p>
+<P> rollNo-> name </p>
+<p>  The highest normal form of this relation scheme is?</p>
+<p>  i) Differentiate between the terms serial schedule and serializable schedule.</p>
+<p> j) Classify the different types of failure that may  occur in a system ?  4x10 </p>
+<p>2. Explain in detail about different data models with examples.  10 </p>
+<p>  3) Consider the following table:</p>
+<p>Employee (Emp Name, Dept Name, Salary)v </p>
+<p> Write SQL statements for the following  </p>
+<p>a) Find the employee name that is getting more than 20000. </p>
+<p>b) Find the department name where employee's average salary is equal to 15000. </p>
+<p> Discuss different aggregate function of SQL.   10 	</p>
+<p>  4)What do you mean by normalization Explain INF, 2NF, 3NF and BCNF with examples.</p>
+<p> 5) Discuss the ACID of transaction and explain properties 2PL locking technique. AND OR Consider two transactions T1 and T2, and four schedules S1, S2, S3, S4 of TI and T2 as given below: T2: R2 [X] R2 [Y] W2 [Y] S4: R2 [X] R2 [Y] R1 [X] Wi [X] Wi [Y] W2 [Y] Which of the above schedules are conflict-serializable? </p>
+<p> 6. (a) Compare the deferred and immediate modification versions of the log-based recovery scheme in terms of ease of implementation and overhead cost. </p>
+    <p>(b) Differentiate the term coarse-grain and fine-grain parallel system.</p>
+    <p> (c) When is it useful to have replication of fragmentation of data Explain your answer.</p>
+    <p> (d) How distributed database designed for a local-area network differ from one designed for a wide area network </p>
+<p> 7. Draw diagram for Library Management system and mention clearly all entities and attributes.</p>
+
+
+
+
+
+
+    <h5>*****</h5>
+</body>
+</html>

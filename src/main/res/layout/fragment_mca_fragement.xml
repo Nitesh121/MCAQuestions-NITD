@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.niteshjha.mca_nitd.CourceDetails">
+
+
+    <Button
+        android:id="@+id/First_Sem"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginRight="31dp"
+        android:text="First Semester"
+        android:textSize="18dp"
+        android:background="@drawable/shap"
+        android:textColor="#dc040f"
+        android:layout_alignBottom="@+id/Second_sem"
+        android:layout_toLeftOf="@+id/Second_sem"
+        android:layout_toStartOf="@+id/Second_sem" />
+
+    <Button
+        android:id="@+id/Second_sem"
+        android:textSize="18dp"
+        android:background="@drawable/shap"
+        android:textColor="#dc040f"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:text="SECOND SEMESTER"
+        android:layout_above="@+id/Forth_sem"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="13dp" />
+
+    <Button
+        android:id="@+id/Third_Sem"
+        android:textSize="18dp"
+        android:background="@drawable/shap"
+        android:textColor="#dc040f"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:text="THIRED SEMESTER"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/First_Sem"
+        android:layout_alignStart="@+id/First_Sem" />
+
+    <Button
+        android:id="@+id/Forth_sem"
+        android:textSize="18dp"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:text="FOURTH SEMESTER"
+        android:background="@drawable/shap"
+        android:textColor="#dc040f"
+        android:layout_alignTop="@+id/Third_Sem"
+        android:layout_toRightOf="@+id/First_Sem"
+        android:layout_toEndOf="@+id/First_Sem" />
+
+    <Button
+        android:id="@+id/Fifth_sem"
+        android:textSize="18dp"
+        android:background="@drawable/shap"
+        android:textColor="#dc040f"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:text="FIFTH SEMESTER"
+        android:layout_below="@+id/Third_Sem"
+        android:layout_alignLeft="@+id/Third_Sem"
+        android:layout_alignStart="@+id/Third_Sem"
+        android:layout_marginTop="19dp" />
+
+    <Button
+        android:id="@+id/Sixth_sem"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:background="@drawable/shap"
+        android:textColor="#dc040f"
+        android:text="SIXTH SEMESTER"
+        android:textSize="18dp"
+        android:layout_alignBottom="@+id/Fifth_sem"
+        android:layout_alignLeft="@+id/Forth_sem"
+        android:layout_alignStart="@+id/Forth_sem" />
+</RelativeLayout>

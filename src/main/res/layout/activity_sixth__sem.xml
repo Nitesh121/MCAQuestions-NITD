@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/free"
+        android:text="Project Work"
+        android:textSize="20dp"
+        android:textColor="#da1738"
+        android:background="@drawable/buttonshap"
+
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/quant"
+        android:background="@drawable/buttonshap"
+        android:text="VIVA VOCE"
+        android:textSize="20dp"
+        android:textColor="#da1738"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/free"
+        android:layout_alignLeft="@+id/free"
+        android:layout_alignStart="@+id/free" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_weight="0.10"
+
+        android:ems="10"
+        android:fontFamily="cursive"
+        android:text="Sixth  semester course Details "
+        android:textAlignment="center"
+        android:textColor="#0c10ff"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:id="@+id/textView" />
+
+</RelativeLayout>

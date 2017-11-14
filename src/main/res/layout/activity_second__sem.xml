@@ -1,0 +1,114 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/free"
+        android:text="Data Structure "
+        android:textSize="20dp"
+        android:textColor="#da1738"
+        android:background="@drawable/buttonshap"
+
+        android:layout_marginTop="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/quant"
+        android:background="@drawable/buttonshap"
+        android:text="Formal language  and Automata Theory"
+        android:textSize="20dp"
+        android:textColor="#da1738"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/free"
+        android:layout_alignLeft="@+id/free"
+        android:layout_alignStart="@+id/free" />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Computer Organization and Architecture "
+        android:background="@drawable/buttonshap"
+        android:id="@+id/data"
+        android:textSize="20dp"
+        android:textColor="#da1738"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/quant"
+        android:layout_alignLeft="@+id/quant"
+        android:layout_alignStart="@+id/quant" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Object Oriented  Programming "
+        android:textColor="#da1738"
+        android:textSize="20dp"
+        android:onClick="gotoreasoning"
+        android:background="@drawable/buttonshap"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/data"
+        android:layout_alignLeft="@+id/data"
+        android:layout_alignStart="@+id/data" />
+
+    <Button
+        android:layout_width="300dp"
+        android:id="@+id/finantial"
+        android:layout_height="50dp"
+        android:text="System Software "
+        android:textSize="20dp"
+        android:textColor="#da1738"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/buttonshap"
+        android:layout_below="@+id/button9"
+        android:layout_alignLeft="@+id/button9"
+        android:layout_alignStart="@+id/button9" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Laboratory-III"
+        android:textSize="20dp"
+        android:background="@drawable/buttonshap"
+        android:textColor="#da1738"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/finantial"
+        android:layout_alignLeft="@+id/finantial"
+        android:layout_alignStart="@+id/finantial" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Laboratory-IV"
+        android:textSize="20dp"
+        android:background="@drawable/buttonshap"
+        android:textColor="#da1738"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/button"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_weight="0.10"
+
+        android:ems="10"
+        android:fontFamily="cursive"
+        android:text="Second semester course Details "
+        android:textAlignment="center"
+        android:textColor="#0c10ff"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="1">
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:ems="10"
+        android:text="Registration form "
+
+        android:textAlignment="center"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textColor="#0c10ff"
+        android:textSize="40sp"
+        android:layout_weight="0.10" />
+
+    <EditText
+        android:id="@+id/NAME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Contact"
+        android:textSize="20sp"
+        android:textColor="#f00"
+        android:ems="10"
+        android:textStyle="bold"
+        android:hint="contact no"
+        android:inputType="phone"
+
+
+        />
+
+    <Button
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+
+        android:textStyle="bold"
+        android:text="Sign In"
+        android:background="#1225ea"
+        android:textSize="30sp"
+        android:textColor="#fa0516"
+        android:layout_margin="10dp"
+        android:onClick="Sign" />
+
+
+
+
+
+</LinearLayout>
